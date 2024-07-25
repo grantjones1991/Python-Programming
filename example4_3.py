@@ -1,4 +1,5 @@
 from graphics import *
+from graphics.zellegraphics import *
 # example4_3.py
 # This is example code taken from page 90 of the Python Programming textbook by John Zelle
 
@@ -29,3 +30,8 @@ line.draw(win)
 ## Draw an ovalusing the Oval object
 oval = Oval(Point(20,150), Point(180,199))
 oval.draw(win)
+
+end = Text(Point(150,10),"Click to quit")
+end.draw(win)
+win.getMouse()
+win.close()

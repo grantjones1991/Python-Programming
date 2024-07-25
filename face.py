@@ -1,4 +1,7 @@
 from graphics import *
+from graphics.zellegraphics import GraphWin, Text, Point, Oval, Circle, Line
+
+
 ## face.py
 ## Based off of exercise 4.10.3
 ## Code written by M Grant Jones

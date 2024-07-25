@@ -1,4 +1,7 @@
 from graphics import *
+from graphics.zellegraphics import *
+
+
 # interactiveGraphics.py
 # Based on programming exercise 4.10.1 from Python Programming book by John Zelle
 # Code written by M Grant Jones

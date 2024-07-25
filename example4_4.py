@@ -2,7 +2,7 @@
 # code taken from section 4.4 in Python Programming book by John Zelle
 
 
-from graphics import *
+from graphics.zellegraphics import *
 leftEye = Circle(Point(100,100),30)
 leftEye.setFill('yellow')
 leftEye.setOutline('red')
@@ -22,10 +22,13 @@ rightEye.draw(win)
 newWin = GraphWin()
 circ1 = Circle(Point(100,100),30)
 
-circ2 = circ1
+circ2 = circ1.clone()
 
 circ2.move(20,0)
 circ1.draw(newWin)
 circ2.draw(newWin)
 
-
+end = Text(Point(150,10),"Click to quit")
+end.draw(newWin)
+newWin.getMouse()
+newWin.close()
