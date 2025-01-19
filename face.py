@@ -1,5 +1,5 @@
-from graphics import *
-from graphics.zellegraphics import GraphWin, Text, Point, Oval, Circle, Line
+#from graphics import *
+from graphics.zellegraphics import *
 
 
 ## face.py
@@ -75,8 +75,6 @@ def main():
     Line(Point(160,370),Point(460,370)).draw(win)
     win.getMouse()
 
-    
-    
     end = Text(Point(550,550),"Click to quit")
     end.draw(win)
     win.getMouse()
